@@ -7,7 +7,6 @@ let inc = 0.01;
 let start = 0;
 
 function setup() {
-    // body...
     createCanvas(640,480);
 }
 
@@ -33,12 +32,5 @@ function draw(){
     }
 
     updatePixels();
-    //noLoop();
-/*
-    let x = map(noise(xOff1), 0, 1, 0, width);
-    let y = map(noise(xOff2), 0, 1, 0, width);
-    xOff1 += 0.02;
-    xOff2 += 0.02;
-*/  
-    //ellipse(x,y,25,25);
+    
 }
