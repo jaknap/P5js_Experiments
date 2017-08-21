@@ -1,3 +1,6 @@
+//Perlin Noise
+
+
 let xOff1 = 0;
 let xOff2 = 1000;
 let inc = 0.01;
